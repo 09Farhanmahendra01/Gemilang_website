@@ -1,0 +1,8 @@
+.header {
+  background-image: url("/src/assets/images/fading-blue-background.jpg");
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: border-box;
+}

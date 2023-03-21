@@ -1,0 +1,14 @@
+.garisbawah {
+  width: 100px;
+  height: 5px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+}
+.backgroundDes {
+  background-color: rgb(223, 237, 236);
+}
+.backgroundDes p {
+  font-style: oblique;
+}
