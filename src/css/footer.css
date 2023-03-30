@@ -1,0 +1,23 @@
+.ContainerFooter {
+  height: 70px;
+}
+@media screen and (max-width: 600px) {
+  .textCopyright {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .textCopyright {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .textCopyright {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .textCopyright {
+    font-size: 17px;
+  }
+}
