@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Gemilang_website/static/css/main.9b2847f5.css",
+    "main.js": "/Gemilang_website/static/js/main.2292d7a7.js",
+    "static/js/787.c2423280.chunk.js": "/Gemilang_website/static/js/787.c2423280.chunk.js",
+    "static/media/person2.jpg": "/Gemilang_website/static/media/person2.81f7306161b4ed788189.jpg",
+    "static/media/person1.jpg": "/Gemilang_website/static/media/person1.f08a55004c5ac1cce69b.jpg",
+    "static/media/map.jpg": "/Gemilang_website/static/media/map.e8eb01eccc6e92519890.jpg",
+    "static/media/person3.jpg": "/Gemilang_website/static/media/person3.542065239e125d7c2e3b.jpg",
+    "static/media/backgroundTestimonial.jpg": "/Gemilang_website/static/media/backgroundTestimonial.0d553f36bc4d2c355375.jpg",
+    "static/media/showcase.png": "/Gemilang_website/static/media/showcase.3d7f411979525e846b27.png",
+    "static/media/4389641-removebg-preview.png": "/Gemilang_website/static/media/4389641-removebg-preview.61c83cd786ee02097999.png",
+    "static/media/call.png": "/Gemilang_website/static/media/call.6dd29c9a2ff8dfe7a1a7.png",
+    "static/media/ac.png": "/Gemilang_website/static/media/ac.801a8de0eb440d4c9a2e.png",
+    "static/media/iconsG-removebg-preview.png": "/Gemilang_website/static/media/iconsG-removebg-preview.cb6f5cacc001c2b5d8ed.png",
+    "static/media/mechanic.png": "/Gemilang_website/static/media/mechanic.35bcc09edb4f8c755f25.png",
+    "static/media/garansi-removebg-preview.png": "/Gemilang_website/static/media/garansi-removebg-preview.c7cda3256ccfe687ee54.png",
+    "static/media/mesinCuci.png": "/Gemilang_website/static/media/mesinCuci.b5df418a8018afd91415.png",
+    "static/media/kulkas.png": "/Gemilang_website/static/media/kulkas.7fb5e920c691e4892306.png",
+    "index.html": "/Gemilang_website/index.html",
+    "main.9b2847f5.css.map": "/Gemilang_website/static/css/main.9b2847f5.css.map",
+    "main.2292d7a7.js.map": "/Gemilang_website/static/js/main.2292d7a7.js.map",
+    "787.c2423280.chunk.js.map": "/Gemilang_website/static/js/787.c2423280.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b2847f5.css",
+    "static/js/main.2292d7a7.js"
+  ]
+}
