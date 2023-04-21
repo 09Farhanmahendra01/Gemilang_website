@@ -3,19 +3,21 @@ import "../css/header.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import icon from "../assets/images/4389641-removebg-preview.png";
-const header = () => {
+const header = ({ id }) => {
   return (
-    <div className="container-fluid h-100">
+    <div className="container-header container-fluid h-100" id={id}>
       <Row className="h-100 row-cols-lg-2 row-cols-1">
         {/* colom pertama */}
-        <Col className="col1 text-center ">
+        <Col className="col1 text-center">
           <div>
             <h3 className="titleHeader text-white fw-bolder fs-2 animate__animated animate__fadeInDownBig">
               Bingung, Cari Jasa Service yang tepat ?
             </h3>
             <h5 className="kalimatAjakanheader text-white mt-4 animate__animated animate__fadeInUpBig ">
-              <span className="fw-bolder fs-4"> Gemilang Services,</span> Kini
-              hadir untuk memenuhi kebutuhan Service elektronik anda!
+              <span className="gemilang fw-bolder fs-4">
+                Gemilang Services{" "}
+              </span>
+              Kini hadir untuk memenuhi kebutuhan Service elektronik anda!
             </h5>
             <div className="d-flex justify-content-center">
               <div className="textDes w-75 text-start mt-4">
@@ -31,7 +33,7 @@ const header = () => {
               </div>
             </div>
             <div className="containerConsultasiAndOrder  d-flex justify-content-center">
-              <a href="https://bit.ly/3TRSSq4" target={"_blank"}>
+              <a href="https://bit.ly/436JD9R" target={"_blank"}>
                 <button className="ContainerConsultasiWhite  d-flex justify-content-center align-items-center py-2 rounded-2 mt-3 animate__animated animate__zoomInDown">
                   <div className="containerIconTelepon">
                     <svg
@@ -54,7 +56,7 @@ const header = () => {
           </div>
         </Col>
         {/* colom kedua */}
-        <Col className="d-flex  justify-content-center align-items-start">
+        <Col className="col2 d-flex justify-content-center align-items-start">
           <div className="imageIlustration">
             <img
               src={icon}

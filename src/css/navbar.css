@@ -1,6 +1,10 @@
 .textG {
   color: rgba(255, 106, 0, 0.912);
 }
+.navbar {
+  background-color: #1c8cc4;
+  z-index: 3;
+}
 .collapse ul li a {
   color: white;
 }
@@ -10,4 +14,21 @@ img {
 }
 .navbar p {
   height: 47px;
+}
+
+/* responsive */
+@media screen and (max-width: 992px) {
+  .navigasi {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-navigasi {
+    width: 50% !important;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: flex-end !important;
+  }
 }

@@ -9,22 +9,27 @@ function App() {
   return (
     <div>
       <div className="header position-relative">
-        <Navbar />
-        <Header />
+        <Navbar
+          href1={"#beranda"}
+          href2={"#keunggulan"}
+          href3={"#kategori"}
+          href4={"#testimonial"}
+        />
+        <Header id={"beranda"} />
       </div>
       <GetWaves />
-      <Keunggulan />
+      <Keunggulan id={"keunggulan"} />
       <GetWaves2 />
-      <KategoriJasa />
-      <Testimonial />
+      <KategoriJasa id={"kategori"} />
+      <Testimonial id={"testimonial"} />
       <Footer />
     </div>
   );
 }
 
-const GetWaves = () => {
+const GetWaves = ({ id }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id={id}>
       <path
         fill="#1C8CC4"
         fill-opacity="1"
@@ -34,9 +39,9 @@ const GetWaves = () => {
   );
 };
 
-const GetWaves2 = () => {
+const GetWaves2 = ({ id }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id={id}>
       <path
         fill="#EDEFF0"
         fill-opacity="1"

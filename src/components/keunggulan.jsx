@@ -7,9 +7,9 @@ import mechanic from "../assets/images/mechanic.png";
 import "../css/keunggulan.css";
 
 // foto
-const keunggulan = () => {
+const keunggulan = ({ id }) => {
   return (
-    <div className="containerKeunggulan px-5 ">
+    <div className="containerKeunggulan px-5" id={id}>
       {/* baris pertama */}
       <Row>
         <Col className="text-center">
@@ -18,6 +18,7 @@ const keunggulan = () => {
               className="text-primary fw-bolder"
               data-aos="fade-down"
               data-aos-duration={800}
+              id={id}
             >
               Keunggulan Layanan
             </h2>
@@ -35,7 +36,7 @@ const keunggulan = () => {
       <Row className="row-cols-lg-3 row-cols-md-2 row-cols-1 mt-5 d-flex justify-content-center">
         <Card
           image={map}
-          title={"Layanan Se-Jabodetabek"}
+          title={"Layanan bekasi dan sekitarnya"}
           deskripsi={"Melayani service panggilan pada area Jabodetabek."}
           dataAosDelay="400"
           dataAosDuration="700"
@@ -84,7 +85,7 @@ const Card = ({ title, image, deskripsi, dataAosDelay, dataAosDuration }) => {
             </div>
             <div className="backgroundDes">
               <div class="card-body border-top border-2 border">
-                <h5 class="card-title fw-bold">{title}</h5>
+                <h5 class="card-title fw-bold ">{title}</h5>
                 <p class="card-text">{deskripsi}</p>
               </div>
             </div>

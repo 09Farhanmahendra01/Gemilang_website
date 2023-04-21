@@ -6,9 +6,9 @@ import kulkas from "../assets/images/kulkas.png";
 import ac from "../assets/images/ac.png";
 import mesincuci from "../assets/images/mesinCuci.png";
 import showcase from "../assets/images/showcase.png";
-const KategoriJasa = () => {
+const KategoriJasa = ({ id }) => {
   return (
-    <div className="KategoriJasa container-fluid z-2 pb-5">
+    <div className="KategoriJasa container-fluid z-2 pb-5" id={id}>
       {/* Baris 1 */}
       <Row>
         <Col className="text-center">

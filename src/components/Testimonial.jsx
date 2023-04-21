@@ -5,15 +5,16 @@ import person1 from "../assets/images/person1.jpg";
 import person2 from "../assets/images/person2.jpg";
 import person3 from "../assets/images/person3.jpg";
 import { Row, Col } from "react-bootstrap";
-const Testimonial = () => {
+const Testimonial = ({ id }) => {
   return (
     <div className="testimonial container-fluid">
       <Row>
         <Col className="text-center">
           <div
             className="titleTesti"
-            data-aos="zoom-out-down"
+            data-aos="zoom-in-down"
             data-aos-delay="1800"
+            id={id}
           >
             <h5 className="text-primary fw-semibold">Testimonial</h5>
             <h2 className="mt-2 text-primary fw-bold">

@@ -7,11 +7,13 @@
   height: 150px;
 }
 .backgroundDes {
-  background-color: rgb(223, 237, 236);
+  background-color: rgb(86, 241, 228);
 }
 .backgroundDes p {
   font-style: oblique;
 }
 .containerKeunggulan {
   position: relative;
+  height: auto;
+  padding-top: 8rem;
 }
